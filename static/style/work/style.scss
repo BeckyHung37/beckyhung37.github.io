@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #11151F;
+}
+header{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    nav{
+        width: 1024px;
+        height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            font-size: 1.125rem;
+            font-weight: 600;
+            a{
+                text-decoration: none;  
+                &:hover{
+                    color: #B6C2E2;
+                }
+            }
+        }
+        .navMenu{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            li{
+                font-size: 1rem;
+                margin-right: 40px;
+                list-style: none;
+                &:nth-child(4){
+                    margin-right: 0px;
+                }
+                .navItem{
+                  text-decoration: none;  
+                  opacity: 60%;
+                  position: relative;
+                  display: flex;
+                  align-items: center;
+                  &:hover{
+                    opacity: 100%;
+                    box-shadow:  0px 3px 0px 0px #B6C2E2;
+                    transition: .2s;
+                  }
+                }
+            }
+            #work{
+                position: relative;
+                .dropdown{
+                    background-color: #fff;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 20px;
+                    left: -50%;
+                    padding: 16px;
+                    li{
+                        padding: 8px 0 8px 0;
+                        margin-right: 0px;
+                        a{
+                            text-decoration: none;  
+                            opacity: 60%;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            &:hover{
+                                opacity: 100%;
+                                // box-shadow:  0px 3px 0px 0px #B6C2E2;
+                                transition: .2s;
+                            }
+                        }
+                    }
+                }
+                //hide dropdown
+                .dropdown{
+                    display: none;
+                }
+                //display dropdown
+                &:hover > .dropdown{
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .introSection{
+        width: 100%;
+        border-bottom: 1px solid #E6EAF5;
+        padding:72px 0 100px 0;
+        display: flex;
+        justify-content: center;
+        .introWrap{
+            width: 1024px;
+            display: flex;
+            flex-wrap: wrap;
+            .photo{
+                width: 40%;
+                max-height: 420px;
+                border-radius: 12px;
+                overflow: hidden;
+                img{
+                    max-width: 100%;
+                    max-height: auto;
+                    border-radius: 12px;
+                }
+            }
+            .introduction{
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                padding: 32px 32px 32px 32px;
+                .title{
+                    padding-bottom: 40px;
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                .subtitle{
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                    margin-bottom: 12px;
+                }
+                .description{
+                    opacity: 60%;
+                }
+                .roleAndTool{
+                    display: flex;
+                    margin-top: 48px;
+                    .role{
+                        margin-right: 20%;
+                    }
+                }
+            }
+        }
+    }
+    .uxSection{
+        width: 100%;
+        border-bottom: 1px solid #E6EAF5;
+        padding:72px 0 72px 0;
+        display: flex;
+        justify-content: center;
+        background: #FBFBFD;
+        .uxWrap{
+            width: 1024px;
+            display: flex;
+            flex-wrap: wrap;
+            .title{
+                padding-bottom: 40px;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+        }
+    }
+    .mockupSection{
+        width: 100%;
+        border-bottom: 1px solid #E6EAF5;
+        padding:72px 0 72px 0;
+        display: flex;
+        justify-content: center;
+        .mockupWrap{
+            width: 1024px;
+            display: flex;
+            flex-wrap: wrap;
+            .title{
+                padding-bottom: 40px;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+        }
+    }
+    .systemSection{
+        width: 100%;
+        border-bottom: 1px solid #E6EAF5;
+        padding:72px 0 72px 0;
+        display: flex;
+        justify-content: center;
+        background: #FBFBFD;
+        .systemWrap{
+            width: 1024px;
+            display: flex;
+            flex-wrap: wrap;
+            .title{
+                padding-bottom: 40px;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0 60px 0;
+    box-shadow: 0px -1px 0px 0px #E6EAF5;
+    .footerTitle{
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    .footerSubtitle{
+        opacity: 60%;
+        margin-bottom: 40px;
+    }
+    .linkGroup{
+        a{
+            margin: 0 20px 0 20px;
+        }
+    }
+}
