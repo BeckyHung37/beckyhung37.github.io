@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #11151F;
+}
+
+header {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav {
+  width: 1024px;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+header nav .logo a {
+  text-decoration: none;
+}
+
+header nav .logo a:hover {
+  color: #B6C2E2;
+}
+
+header nav .navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .navMenu li {
+  font-size: 1rem;
+  margin-right: 40px;
+  list-style: none;
+}
+
+header nav .navMenu li:nth-child(4) {
+  margin-right: 0px;
+}
+
+header nav .navMenu li .navItem {
+  text-decoration: none;
+  opacity: 60%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .navMenu li .navItem:hover {
+  opacity: 100%;
+  -webkit-box-shadow: 0px 3px 0px 0px #B6C2E2;
+          box-shadow: 0px 3px 0px 0px #B6C2E2;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header nav .navMenu #work {
+  position: relative;
+}
+
+header nav .navMenu #work .dropdown {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 20px;
+  left: -50%;
+  padding: 16px;
+}
+
+header nav .navMenu #work .dropdown li {
+  padding: 8px 0 8px 0;
+  margin-right: 0px;
+}
+
+header nav .navMenu #work .dropdown li a {
+  text-decoration: none;
+  opacity: 60%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .navMenu #work .dropdown li a:hover {
+  opacity: 100%;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header nav .navMenu #work .dropdown {
+  display: none;
+}
+
+header nav .navMenu #work:hover > .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .introSection {
+  width: 100%;
+  border-bottom: 1px solid #E6EAF5;
+  padding: 72px 0 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .introSection .introWrap {
+  width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .introSection .introWrap .photo {
+  width: 40%;
+  max-height: 420px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+main .introSection .introWrap .photo img {
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 12px;
+}
+
+main .introSection .introWrap .introduction {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 32px 32px 32px 32px;
+}
+
+main .introSection .introWrap .introduction .title {
+  padding-bottom: 16px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+main .introSection .introWrap .introduction .description {
+  opacity: 60%;
+}
+
+main .specializeSection {
+  width: 100%;
+  border-bottom: 1px solid #E6EAF5;
+  padding: 72px 0 72px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .specializeSection .specializeWrap {
+  width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .specializeSection .specializeWrap .title {
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main .specializeSection .specializeWrap .specializeBox {
+  width: 100%;
+  border-bottom: 1px solid #E6EAF5;
+  padding: 32px 32px 32px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .specializeSection .specializeWrap .specializeBox:hover {
+  background: #f6f8fa;
+}
+
+main .specializeSection .specializeWrap .specializeBox:nth-child(4) {
+  border-bottom: 0px solid #E6EAF5;
+}
+
+main .specializeSection .specializeWrap .specializeBox .specialize {
+  width: 60%;
+}
+
+main .specializeSection .specializeWrap .specializeBox .specialize .name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+main .specializeSection .specializeWrap .specializeBox .specialize .description {
+  opacity: 60%;
+}
+
+main .specializeSection .specializeWrap .specializeBox .logoGroup {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .specializeSection .specializeWrap .specializeBox .logoGroup .logo {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #E6EAF5;
+  border-radius: 4px;
+  background: #fff;
+  margin: 8px 8px 8px 8px;
+  overflow: hidden;
+}
+
+main .workSection {
+  width: 100%;
+  padding: 72px 0 72px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .workSection .workWrap {
+  width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .workSection .workWrap .title {
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main .workSection .workWrap .experienceBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 32px 32px 32px;
+  border-radius: 12px;
+}
+
+main .workSection .workWrap .experienceBox:hover {
+  background: #f6f8fa;
+}
+
+main .workSection .workWrap .experienceBox .logo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #E6EAF5;
+  border-radius: 4px;
+  background: #fff;
+  margin: 0 32px 0 0;
+  overflow: hidden;
+}
+
+main .workSection .workWrap .experienceBox .companyInfo {
+  width: 80%;
+}
+
+main .workSection .workWrap .experienceBox .companyInfo .company {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+main .workSection .workWrap .experienceBox .companyInfo .roleYear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .workSection .workWrap .experienceBox .companyInfo .roleYear .role {
+  font-size: 1.125rem;
+}
+
+main .workSection .workWrap .experienceBox .companyInfo .roleYear .year {
+  font-size: 1.125rem;
+  opacity: 60%;
+  margin-left: 8px;
+}
+
+main .workSection .workWrap .experienceBox .companyInfo .experience {
+  margin-top: 12px;
+  opacity: 60%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60px 0 60px 0;
+  -webkit-box-shadow: 0px -1px 0px 0px #E6EAF5;
+          box-shadow: 0px -1px 0px 0px #E6EAF5;
+}
+
+footer .footerTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+footer .footerSubtitle {
+  opacity: 60%;
+  margin-bottom: 40px;
+}
+
+footer .linkGroup a {
+  margin: 0 20px 0 20px;
+}
+/*# sourceMappingURL=style.css.map */
