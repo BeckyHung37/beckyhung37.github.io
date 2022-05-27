@@ -238,7 +238,7 @@ main .project .projectTitle {
 
 main .project .projectBox {
   width: 46%;
-  min-height: 500px;
+  min-height: 480px;
   margin: 16px;
   border-radius: 12px;
   background-color: #F4F6FA;
@@ -304,7 +304,7 @@ main .project .projectBox:hover > .projectInfo {
 }
 
 main .project .case1 {
-  background-image: url(../../image/test.png);
+  background-image: url(../../image/work1/work1.png);
   background-size: cover;
 }
 

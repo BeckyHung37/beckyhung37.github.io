@@ -175,6 +175,7 @@ main .introSection .introWrap .photo {
   max-height: 420px;
   border-radius: 12px;
   overflow: hidden;
+  background-color: #F4F6FA;
 }
 
 main .introSection .introWrap .photo img {
