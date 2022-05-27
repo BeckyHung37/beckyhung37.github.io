@@ -308,6 +308,16 @@ main .project .case1 {
   background-size: cover;
 }
 
+main .project .case2 {
+  background-image: url(../../image/work2/work2.png);
+  background-size: cover;
+}
+
+main .project .case4 {
+  background-image: url(../../image/work4/work4.png);
+  background-size: cover;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
