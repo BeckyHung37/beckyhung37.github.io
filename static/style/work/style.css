@@ -197,9 +197,9 @@ main .introSection .introWrap .introduction {
 }
 
 main .introSection .introWrap .introduction .title {
-  padding-bottom: 40px;
   font-size: 2rem;
   font-weight: 700;
+  padding-bottom: 32px;
 }
 
 main .introSection .introWrap .introduction .subtitle {
@@ -288,7 +288,6 @@ main .systemSection {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #FBFBFD;
 }
 
 main .systemSection .systemWrap {
@@ -304,6 +303,11 @@ main .systemSection .systemWrap .title {
   padding-bottom: 40px;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+main .systemSection .systemWrap img {
+  width: 100%;
+  height: auto;
 }
 
 footer {

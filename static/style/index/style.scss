@@ -112,15 +112,17 @@ main{
             width: 70%;
             flex-direction: column;
             h1{
-                font-size: 2.75rem;
+                font-size: 3.5rem;
                 text-align: center;
                 font-weight: 700;
             }
             h2{
+                font-size: 2.5rem;
                 font-size: 2rem;
                 text-align: center;
                 margin-top: 16px;
                 font-weight: 700;
+                line-height: 4rem;
                 a{
                     text-decoration: none;
                 }
@@ -220,8 +222,16 @@ main{
             background-image: url(../../image/work2/work2.png);
             background-size: cover;
         }
+        .case3{
+            background-image: url(../../image/work3/work3.png);
+            background-size: cover;
+        }
         .case4{
             background-image: url(../../image/work4/work4.png);
+            background-size: cover;
+        }
+        .case6{
+            background-image: url(../../image/work6/work6.png);
             background-size: cover;
         }
     }

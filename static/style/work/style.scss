@@ -122,11 +122,23 @@ main{
                 display: flex;
                 flex-direction: column;
                 padding: 32px 32px 32px 32px;
-                .title{
-                    padding-bottom: 40px;
-                    font-size: 2rem;
-                    font-weight: 700;
-                }
+                // .titleBtn{
+                //     padding-bottom: 32px;
+                    .title{
+                        font-size: 2rem;
+                        font-weight: 700;
+                        padding-bottom: 32px;
+                    }
+                    // .btn{
+                    //     background-color: #B6C2E2;
+                    //     border: none;
+                    //     width: 40px;
+                    //     padding: 12px 8px 12px 8px;
+                    //     border-radius: 20px;                       font: 1.125rem;
+                    //     font-weight: 600;
+                    //     text-decoration: none;
+                    // }
+                // }
                 .subtitle{
                     font-size: 1.125rem;
                     font-weight: 600;
@@ -186,7 +198,6 @@ main{
         padding:72px 0 72px 0;
         display: flex;
         justify-content: center;
-        background: #FBFBFD;
         .systemWrap{
             width: 1024px;
             display: flex;
@@ -195,6 +206,10 @@ main{
                 padding-bottom: 40px;
                 font-size: 1.5rem;
                 font-weight: 700;
+            }
+            img{
+                width: 100%;
+                height: auto;
             }
         }
     }
