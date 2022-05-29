@@ -233,7 +233,6 @@ main .uxSection {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #FBFBFD;
 }
 
 main .uxSection .uxWrap {
@@ -243,12 +242,28 @@ main .uxSection .uxWrap {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 main .uxSection .uxWrap .title {
   padding-bottom: 40px;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+main .uxSection .uxWrap .subTitle {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+main .uxSection .uxWrap img {
+  width: 100%;
+  height: auto;
 }
 
 main .mockupSection {
@@ -261,6 +276,7 @@ main .mockupSection {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #FBFBFD;
 }
 
 main .mockupSection .mockupWrap {
@@ -270,12 +286,30 @@ main .mockupSection .mockupWrap {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 main .mockupSection .mockupWrap .title {
   padding-bottom: 40px;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+main .mockupSection .mockupWrap .subTitle {
+  padding-top: 60px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+main .mockupSection .mockupWrap img {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 0px 100px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 0px 100px rgba(0, 0, 0, 0.1);
+  margin-top: 32px;
 }
 
 main .systemSection {
