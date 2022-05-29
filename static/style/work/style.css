@@ -254,7 +254,7 @@ main .uxSection .uxWrap .title {
   font-weight: 700;
 }
 
-main .uxSection .uxWrap .subTitle {
+main .uxSection .uxWrap .subtitle {
   padding-top: 60px;
   padding-bottom: 30px;
   font-size: 1.125rem;
@@ -298,7 +298,7 @@ main .mockupSection .mockupWrap .title {
   font-weight: 700;
 }
 
-main .mockupSection .mockupWrap .subTitle {
+main .mockupSection .mockupWrap .subtitle {
   padding-top: 60px;
   font-size: 1.125rem;
   font-weight: 700;
