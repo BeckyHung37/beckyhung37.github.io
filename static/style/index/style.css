@@ -245,6 +245,7 @@ main .project .projectBox {
   border-radius: 12px;
   background-color: #F4F6FA;
   position: relative;
+  overflow: hidden;
 }
 
 main .project .projectBox .projectInfo {
