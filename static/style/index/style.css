@@ -331,6 +331,16 @@ main .project .case6 {
   background-size: cover;
 }
 
+main .project .cw_App {
+  background-image: url(../../image/cw_App/cw_App.png);
+  background-size: cover;
+}
+
+main .project .cw_web {
+  background-image: url(../../image/cw_web/cw_web.png);
+  background-size: cover;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
